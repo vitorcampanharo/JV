@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Bebas+Neue&family=Fredericka+the+Great&family=Oleo+Script+Swash+Caps:wght@400;700&family=Pacifico&family=Princess+Sofia&family=Water+Brush&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-image: url(25\ HD\ Retina\ Wallpaper\ Collection\ of\ iPhone\ 6\ Plus.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+header{
+    background-image: linear-gradient(to bottom, yellow, red);
+    height: 100px;
+    padding: 10px;
+}
+header h1{
+    text-align: center;
+    font-family: 'Princess Sofia', cursive;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.158);
+}
+header p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.158);
+    margin-top: 10px;
+}
+nav{
+    background-color: red;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.158);
+    padding: 11px;
+    border-radius: 10px 10px 0px 0px;
+}
+nav a:hover{
+    background-image: linear-gradient(to top, yellow, red);
+}
+article{
+    margin: auto;
+    min-width: 400px;
+    max-width: 800px;
+    text-align: justify;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.473);
+}
+article h1{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.158);
+}
+article h2{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.158);
+}
+article p{
+    margin-top: 10px;
+    text-indent: 20px;
+    font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.158);
+    line-height: 25px;
+}
+article img{
+    width: 100%;
+    margin-top: 15px;
+}
+footer{
+    background-color: rgb(59, 49, 49);
+    
+    padding: 20px;
+
+}
+footer li{
+    color: white;
+    text-align: justify;
+    display: block;
+}
+footer ul{
+    columns: 2;
+}
